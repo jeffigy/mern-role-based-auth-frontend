@@ -25,6 +25,7 @@ const DashFooter: React.FC<DashFooterProps> = () => {
     <Box
       bg={useColorModeValue("gray.50", "gray.900")}
       color={useColorModeValue("gray.700", "gray.200")}
+      h={"56px"}
     >
       <Container
         as={Stack}
